@@ -1,0 +1,36 @@
+[2019-09-04 16:13:24.527][test] SubGit version 3.3.7 ('Bobique')
+[2019-09-04 16:13:24.529][test] Command name: test.
+[2019-09-04 16:13:24.530][test] Current user: chenshili.
+[2019-09-04 16:13:24.531][test] Loading repository options for path: 'E:\subtest\mq'
+[2019-09-04 16:13:24.531][test] Loaded config option daemon.pidFile = 'subgit/daemon.pid'
+[2019-09-04 16:13:24.531][test] Loaded config option daemon.classpath = 'subgit/lib'
+[2019-09-04 16:13:24.531][test] Loaded config option daemon.javaOptions = 'null'
+[2019-09-04 16:13:24.531][test] Loaded config option core.logs = 'subgit/logs'
+[2019-09-04 16:13:24.531][test] Loaded config option core.errorReport = 'null'
+[2019-09-04 16:13:24.531][test] Loaded config option core.javaHome = 'null'
+[2019-09-04 16:13:24.531][test] Loaded config option daemon.javaHome = 'null'
+[2019-09-04 16:13:24.531][test] Loaded config option core.logLevel = 'null'
+[2019-09-04 16:13:24.533][test] Checking whether 'E:\subtest\mq' is ASCII
+[2019-09-04 16:13:24.534][test] Creating packet for sending to daemon, estimated size = 91.
+[2019-09-04 16:13:24.534][test] Calculating classpath for repository: 'E:\subtest\mq'.
+[2019-09-04 16:13:24.534][test] Resolved classpath: 'E:/subtest/mq/subgit/lib/subgit-3.3.7_4325_fat.jar'.
+[2019-09-04 16:13:24.534][test] Environment variable JAVA_HOME = 'C:\Program Files\Java\JDK8_64\jre'
+[2019-09-04 16:13:24.534][test] Obtaining file lock on 'E:\subtest\mq/subgit/daemon.pid'.
+[2019-09-04 16:13:24.535][test] Obtained file lock on 'E:\subtest\mq/subgit/daemon.pid'.
+[2019-09-04 16:13:24.535][test] Pid file does not exist: 'E:\subtest\mq/subgit/daemon.pid'.
+[2019-09-04 16:13:24.536][test] Failed to delete pid file 'E:\subtest\mq/subgit/daemon.pid', it doesn't exist.
+[2019-09-04 16:13:24.536][test] Launching daemon, classpath: E:/subtest/mq/subgit/lib/subgit-3.3.7_4325_fat.jar
+    java options: -noverify -client -Djava.awt.headless=true -Djna.nosys=true
+    java command: C:\Program Files\Java\JDK8_64\jre/bin/javaw
+launch timelimit: 1567584814536
+ repository path: E:\subtest\mq
+[2019-09-04 16:13:24.539][test] Waiting for pid file 'E:\subtest\mq/subgit/daemon.pid' creation.
+[2019-09-04 16:13:25.404][test] Daemon info (2720,65074,127.0.0.1) from file 'E:\subtest\mq/subgit/daemon.pid'.
+[2019-09-04 16:13:25.404][test] Trying to connect to daemon 127.0.0.1:65074.
+[2019-09-04 16:13:25.426][test] Read '(version (3.3.7 4325 ))'.
+[2019-09-04 16:13:25.426][test] Daemon version is '3.3.7-4325'.
+[2019-09-04 16:13:25.426][test] Trying to release lock 'E:/subtest/mq/subgit/daemon.lock'.
+[2019-09-04 16:13:25.426][test] Released lock 'E:/subtest/mq/subgit/daemon.lock'.
+[2019-09-04 16:13:25.427][test] Sent '(test (13:E:\subtest\mq )0: ())'.
+[2019-09-04 16:13:25.430][test] Received '(ok (test ))'.
+[2019-09-04 16:13:25.430][test] 

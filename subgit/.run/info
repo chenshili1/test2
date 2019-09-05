@@ -1,0 +1,24 @@
+# PLEASE DO NOT MODIFY THIS FILE!
+# c463c0b83a66a5b8d212ecca0706df6d8b89008c
+[repository]
+	id = e100d9bdb67e68de05f6b93f3d813979d6f820ae
+	installTime = 2019-09-04T16:13:25.671
+	initialRevision = 30003
+	license = 56f8c6dbf67a5ece3430dc75e4c0450ec962c5c6
+[git "default"]
+	direction = svn-to-git
+[license "56f8c6dbf67a5ece3430dc75e4c0450ec962c5c6"]
+	name = chenshili
+	purchaseId = TRIAL
+	trial = true
+	versions = *.*.*
+	repositoryId = e100d9bdb67e68de05f6b93f3d813979d6f820ae
+	globalCommittersLimit = -1
+	gitLabUsersLimit = -1
+	gitCommittersLimit = -1
+	svnCommittersLimit = -1
+	committersLimit = -1
+	repositoriesLimit = -1
+	registerTime = 2019-09-04T16:13:25.752
+[registry]
+	url = file://C:/Users/chenshili/AppData/Roaming/subgit/v1

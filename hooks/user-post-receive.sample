@@ -1,0 +1,30 @@
+#!/bin/sh
+
+# POST-RECEIVE HOOK
+#
+# The 'post-receive' hook is invoked when the pack is received and 
+# the references update process is over.
+# Git runs this hook by invoking a program
+# (script, executable, binary, etc.) named 'post-receive' (for which
+# this file is a template), without arguments.
+#
+#   [STDIN] <old object id> <new object id> <reference name>** 
+#      the references updated are passed via STDIN.
+#
+# The default working directory for the invocation is undefined, so
+# the program should set one explicitly if it cares.
+#
+# The 'post-receive' hook can't influence on push process,
+# but it may be used to notify other services and users.
+# Whatever return code is, STDERR is returned to the client.
+# The user client won't disconnect until the 'post-receive' hook finishes.
+#
+# On a Unix system, the normal procedure is to have 'post-receive'
+# invoke other programs to do the real work, though it may do the
+# work itself too.
+#
+# Note that 'post-receive' must be executable by the user(s) who will
+# invoke it, and that user must have filesystem-level permission
+# to access the repository.
+
+exit 0

@@ -1,0 +1,5 @@
+[svn-git-remote "svn"]
+	uuid = dd12bf73-c6f8-6f4e-bf84-027d073982a7
+	reposRoot = http://172.17.1.9/svn/wms
+	branches-maxRev = 30004
+	tags-maxRev = 30004

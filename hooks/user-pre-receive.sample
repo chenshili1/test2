@@ -1,0 +1,30 @@
+#!/bin/sh
+
+# PRE-RECEIVE HOOK
+#
+# The 'pre-receive' hook is invoked when the pack is received and 
+# but the references update process is not started yet.
+# Git runs this hook by invoking a program
+# (script, executable, binary, etc.) named 'pre-receive' (for which
+# this file is a template), without arguments.
+#
+#   [STDIN] <old object id> <new object id> <reference name>** 
+#      the references updated are passed via STDIN.
+#
+# The default working directory for the invocation is undefined, so
+# the program should set one explicitly if it cares.
+#
+# If the hook program exits with success, the references will be updated,
+# if it exits with failure (non-zero), the process is aborted,
+# the references will not be updated.
+# Whatever return code is, STDERR is returned to the client.
+#
+# On a Unix system, the normal procedure is to have 'pre-receive'
+# invoke other programs to do the real work, though it may do the
+# work itself too.
+#
+# Note that 'pre-receive' must be executable by the user(s) who will
+# invoke it, and that user must have filesystem-level permission
+# to access the repository.
+
+exit 0
